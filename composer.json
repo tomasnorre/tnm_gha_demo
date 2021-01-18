@@ -1,0 +1,23 @@
+{
+    "name": "tomasnorre/tnm-gha-demo",
+    "description": "TYPO3 Demo Extension for testing GitHub Actions",
+    "type": "typo3-cms-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomas Norre Mikkelsen",
+            "email": "tomasnorre@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "tnm_gha_demo"
+        }
+    },
+    "scripts": {
+        "prepare-release": [
+            "rm -rf README.md"
+        ]
+    }
+}
