@@ -9,7 +9,6 @@
             "email": "tomasnorre@gmail.com"
         }
     ],
-    "require": {},
     "extra": {
         "typo3/cms": {
             "extension-key": "tnm_gha_demo"
@@ -19,5 +18,8 @@
         "prepare-release": [
             "rm -rf README.md"
         ]
+    },
+    "require-dev": {
+        "typo3/tailor": "^1.2"
     }
 }
